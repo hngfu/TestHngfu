@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D32A6EA22631E1F00616339 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32A6E922631E1F00616339 /* Pokemon.swift */; };
 		7D498D4C2261D416007CB8CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D498D4B2261D416007CB8CA /* main.swift */; };
 		7D498DF3226308F3007CB8CA /* TestHngfuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D498DF2226308F3007CB8CA /* TestHngfuTests.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D32A6E922631E1F00616339 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		7D498D482261D416007CB8CA /* TestHngfu */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestHngfu; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D498D4B2261D416007CB8CA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7D498DF0226308F3007CB8CA /* TestHngfuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHngfuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				7D498D4B2261D416007CB8CA /* main.swift */,
+				7D32A6E922631E1F00616339 /* Pokemon.swift */,
 			);
 			path = TestHngfu;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D498D4C2261D416007CB8CA /* main.swift in Sources */,
+				7D32A6EA22631E1F00616339 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
