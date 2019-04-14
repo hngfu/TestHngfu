@@ -13,7 +13,7 @@ class Restaurant {
     let rating: Int
     
     init?(name: String, rating: Int) {
-        guard 0 <= rating, rating <= 5 else { return nil }
+        guard (0...10).contains(rating) else { return nil }
         self.name = name
         self.rating = rating
     }
