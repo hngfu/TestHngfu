@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D32A6EA22631E1F00616339 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32A6E922631E1F00616339 /* Pokemon.swift */; };
+		7D32A6EB226321AF00616339 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32A6E922631E1F00616339 /* Pokemon.swift */; };
 		7D498D4C2261D416007CB8CA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D498D4B2261D416007CB8CA /* main.swift */; };
 		7D498DF3226308F3007CB8CA /* TestHngfuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D498DF2226308F3007CB8CA /* TestHngfuTests.swift */; };
 /* End PBXBuildFile section */
@@ -185,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D498DF3226308F3007CB8CA /* TestHngfuTests.swift in Sources */,
+				7D32A6EB226321AF00616339 /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
