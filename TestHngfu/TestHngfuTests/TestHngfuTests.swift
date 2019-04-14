@@ -9,27 +9,16 @@
 import XCTest
 
 class TestHngfuTests: XCTestCase {
-
-    var squirtle: Pokemon!
-    var charmander: Pokemon!
-    var psyduck: Pokemon!
     
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        
-        squirtle = Pokemon(type: .water, attackType: .water)
-        charmander = Pokemon(type: .fire, attackType: .fire)
-        psyduck = Pokemon(type: .water, attackType: .water)
+
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
-        
-        squirtle = nil
-        charmander = nil
-        psyduck = nil
-        
+
         super.tearDown()
     }
 
@@ -45,10 +34,16 @@ class TestHngfuTests: XCTestCase {
         }
     }
     
-    func testThatAWaterPokemonDoesMoreDamageToAFirePokemon() {
-        squirtle.attack(enemy: charmander)
-        squirtle.attack(enemy: psyduck)
+    func testAttackFireTypeWithWaterAttackType() {
         
-        XCTAssertTrue(charmander.health < psyduck.health)
+        //given
+        let charmander = Pokemon(type: .fire, attackType: .fire)
+        let squirtle = Pokemon(type: .water, attackType: .water)
+        
+        //when
+        squirtle.attack(enemy: charmander)
+        
+        //then
+        XCTAssertTrue(charmander.health == 40, "물타입으로 불타입을 때렸으면 40이 남아야하는데 뭔가 잘 못됨.")
     }
 }
