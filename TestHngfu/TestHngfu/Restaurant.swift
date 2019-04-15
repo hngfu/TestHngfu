@@ -14,7 +14,7 @@ class Restaurant {
     
     init?(name: String, rating: Int) {
         guard (0...10).contains(rating),
-            !name.isEmpty else { return nil }
+            name.isEmpty == false else { return nil }
         self.name = name
         self.rating = rating
     }
